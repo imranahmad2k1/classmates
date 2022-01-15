@@ -1,0 +1,189 @@
+html,
+body {
+	background-color: black;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+
+.box .header {
+  flex: 0 1 auto;
+}
+
+.box .content {
+  flex: 1 1 auto;
+}
+
+.content img{
+    height:100%;
+}
+
+
+.web{
+	background-image: url("../bg-img.jpeg");
+	background-position: center;
+	background-size: 150%;
+	height: 95vh;
+}
+
+.wtitle{
+	font-size: 50px;
+	font-weight: bolder;
+	font-family: Arial;
+	font-style: oblique;
+	color: white;
+}
+
+.wdesc{
+	font-family: Arial;
+	font-style: oblique;
+	color: white;
+}
+
+.form{
+	background-color: black;
+	color: white;
+}
+.input-group input{
+	margin-right: 10px;
+}
+
+.button{
+	width: 100%;
+}
+
+.data{
+	background-color: black;
+	color: white;
+}
+
+.details h4{
+	display: inline;
+}
+
+.details p{
+	display:inline;
+}
+
+#data{
+	display:none;
+}
+
+.loginbtn{
+	background-color: black;
+	border: 0;
+}
+
+.loginbtn a{
+	color:white;
+}
+
+.loginbtn a:hover{
+	color:blue;
+}
+
+
+.program{
+	margin:0px;
+	color: rgb(226, 226, 226);
+	display: flex;
+	background-color: brown;
+	border:2px solid white;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.btn-grad {
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.progname{
+	color:white;
+	text-decoration: none;
+} 
+
+.progname:hover{
+	color:white;
+	text-decoration: none;
+} 
+
+
+
+.posts{
+	height:100vh;
+	color:black;
+	background-color: rgb(182, 214, 255);
+}
+
+.addposts{
+	color:black;
+	background-color: rgb(182, 214, 255);
+}
+
+.box{
+	background-color: rgb(153, 197, 255);
+}
+
+.line{
+	border: none;
+	border-top: 1px dashed black;
+	height: 1px;
+	width: 15%;
+	margin-left:42.7%;
+}
+
+.post{
+	padding:10px;
+	margin:10px;
+	background-color: rgba(13, 110, 253, 0.1);
+	border-radius: 0.2rem;
+	color: black;
+}
+
+.addmtrl{
+	margin-left:45.5%;
+}
+
+.aboutus{
+	position: relative;
+	text-align: center;
+	color:white;
+}
+
+.aboutText{
+	position: absolute;
+	top:20%;
+	left:20%;
+	padding: 20px;
+	background-color: rgba(34, 61, 110, 0.75);
+	border-radius: 0.75rem;
+
+}
+
+.form-control{
+	width:50%;
+}
+
+.forminp{
+	margin-left:34%;
+}
